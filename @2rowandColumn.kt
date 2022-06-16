@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
         setContent {
            Column(
                modifier  = Modifier
-                   .fillMaxSize()
+                   .fillMaxSize(fraction = 0.5f)
                    .background(Color.Red)
 
                        ,
